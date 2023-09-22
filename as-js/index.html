@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Car Information</h1>
+    <div class="mainCar">
+        <div class="carInput">
+            <input id="enterName" type="text" placeholder="Enter Car Name">
+            <input id="enterModel" type="text" placeholder="Enter Car Model">
+            <input id="enterMilage" type="text" placeholder="Enter Car Milage">
+            <input id="enterColor" type="text" placeholder="Enter Car Color">
+            <input id="enterAverage" type="text" placeholder="Enter Car Average">
+            <button id="upload" onclick="carUpload()">Update Car Info</button>
+        </div>
+        <div class="carDiv">
+            <h2>Car Name: <span id="car_name"></span></h2>
+            <h2>Car Model: <span id="car_model"></span></h2>
+            <h2>Car Milage: <span id="car_milage"></span></h2>
+            <h2>Car Color: <span id="car_color"></span></h2>
+            <h2>Car Average: <span id="car_average"></span></h2>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
